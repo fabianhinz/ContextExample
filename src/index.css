@@ -1,0 +1,13 @@
+.consumers {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    margin: 1rem;
+    font-size: 2rem;
+}
