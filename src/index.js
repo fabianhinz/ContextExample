@@ -45,11 +45,11 @@ const App = () => {
     return (
         <>
             <input type="number" value={numberOfContexts} onChange={e =>
-                setNumberOfContexts(e.target.value)
+                setNumberOfContexts(Number(e.target.value))
             } />
 
             <input type="number" value={ms} onChange={e =>
-                setMs(e.target.value)
+                setMs(Number(e.target.value))
             } />
 
             <div className="providers">
